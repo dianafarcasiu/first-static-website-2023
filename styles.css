@@ -1,0 +1,109 @@
+/* General */
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.5;
+}
+
+/* Navbar style */
+nav ul{
+    background-color: #81686F;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+nav li{
+    display: inline;
+}
+nav a{
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    padding: 25px;
+}
+nav a:hover{
+    color: #FFE3BB;
+}
+
+/* Header style */
+header{
+    height: 65vh;
+    background-image: url(./images/yawn.jpeg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 800px;
+}
+header h1{
+    margin-left: 300px;
+    padding-top: 150px;
+    font-size: 60px;
+    font-family: fantasy;
+}
+header p{
+    margin-left: 300px;
+    font-size: 20px;
+}
+
+/* Main part style */
+.about, .breeds, .facts, .contact{
+    padding: 25px 150px;
+}
+
+/* About section */
+.about{
+    background-color: #FFE3BB;
+    text-align: justify;
+}
+
+/* Breeds section */
+.breeds img{
+    height: 275px;
+    padding: 20px;
+}
+.breeds ul{
+    list-style: none;
+}
+.breeds h3, .breeds p{
+    padding: 15px;
+    text-align: justify;
+}
+.breeds h3{
+    font-size: large;  
+}
+hr{
+    width: 15%;
+    text-align: center;
+    border-style: dotted none none;
+    border-width: 6px; 
+    border-color: #81686F;
+    clear: both;
+    padding: 15px 0px;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+
+/* Facts section */
+.facts{
+    background-color: #FFE3BB;
+}
+
+/* Contact section */
+span{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* Footer style */
+footer{
+    background-color: #81686F;
+    color: white;
+    text-align: center;
+    font-size: small;
+    overflow: hidden;
+    padding: 10px;
+}
